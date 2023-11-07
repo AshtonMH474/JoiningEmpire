@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang ="en-US">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>Enrollment</title>
+    </head>
+    <body id="background2">
+        <nav>
+            <div class="header">
+                <h1>Navigation Bar</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a class="home" href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+<form action="/form-handling-url" method="post">
+    <fieldset>
+        <legend>Join the Dark Side</legend>
+
+    <div>
+        <label class= "firstName" for="firstName">First Name</label>
+        <input  type="text" id="firstName" name="first_name">
+    </div>
+
+    <div>
+        <label class="lastName" for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="last_name">
+
+    </div>
+
+    <div>
+        <label class="reasoing" for="reasoning">Why the Empire?</label>
+        <textarea id="reasoning" name="reasoning"></textarea>
+    </div>
+
+    <div>
+        <p>
+            Who will lead you?
+        </p>
+        <input type="radio" id="Vader" name="lead" value="Vader">
+        <label for="Vader">Darth Vader</label>
+
+        <input type="radio" id="emperor" name="lead" value="emperor">
+        <label for="emperor">The Emperor</label>
+
+        <input type="radio" id="inquistors" name="lead" value="inquistors">
+        <label for="inquistors">The Inquistors</label>
+    </div>
+
+    <div>
+        <button type = "sumbit">Join!</button>
+    </div>
+</fieldset>
+
+</form>
+<div class="emperor1">
+    <img  src="https://static.wikia.nocookie.net/starwars/images/e/e2/Palpatine-CEUEEd.png/revision/latest?cb=20220511050702" alt="The Emperor">
+</div>
+</div>
+    </body>
+</html>

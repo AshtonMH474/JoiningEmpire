@@ -1,0 +1,123 @@
+#background{
+background: url("emprie_logo.svg");
+background-repeat: no-repeat;
+background-size: 55%;
+background-position:top;
+}
+
+#background2{
+    background: url("emprie_logo.svg");
+background-repeat: no-repeat;
+background-size: 5%;
+background-position: top;
+
+}
+
+
+
+
+.vader_empire{
+text-align: center;
+
+}
+
+
+.mission{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+.procdure{
+    text-align: center;
+}
+
+.failure{
+    text-align: center;
+}
+.emperor1{
+    text-align: center;
+}
+.emperor1 img{
+    max-width: 50%;
+
+}
+
+.container{
+
+    justify-content: center;
+    margin-left: 400px;
+width: 50%;
+align-self: center;
+
+}
+
+
+.reasoing{
+    position: fixed;
+
+
+}
+
+textarea{
+
+    width: 100%;
+}
+
+.darth_em img{
+   max-width: 30%;
+
+}
+.darth_em{
+    position: absolute;
+    left: 10%;
+}
+
+.inqG img{
+    max-width: 26%;
+}
+.inqG{
+
+position:absolute;
+top: 9%;
+left:45%;
+}
+
+.inq img{
+    max-width: 80%;
+}
+
+.inq{
+    position: absolute;
+    top:9%;
+    left: 70%;
+}
+
+.dl img{
+    max-width: 51%;
+}
+
+.dl{
+    position: absolute;
+    top:40%;
+    left:15%;
+}
+
+.ds img{
+max-width: 62%;
+}
+.ds{
+position: absolute;
+top:40%;
+left: 37%;
+}
+.dsp img{
+max-width: 67%;
+}
+.dsp{
+position: absolute;
+top:40%;
+left: 70%;
+}
